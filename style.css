@@ -2,28 +2,30 @@ header, nav, main, footer
 {
 display: block;
 width: 1078px;
+background-color:#ff0000;
 }
+
 body {
  color: #ffffff;
  background-color:#000000;
 }
 
-header {
- color: #ffffff;
- background-color:#000000;
+#col-left {
+background-color:#006acc;
+width: 50%;
+height: 200px;
+float: left;
 }
-
-nav {
- color: #ffffff;
- background-color:#000000;
-}
-
-main {
- color: #ffffff;
- background-color:#000000;
+#col-center {
+  background-color:#00ff00;
+  width: 50%;
+  height: 200px;
+  float: right;
 }
 
 footer {
- color: #ffffff;
- background-color:#000000;
+  background-color:#66ccbb;
+  width: 1000px;
+  height: 100px;
+clear: both;
 }
